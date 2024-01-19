@@ -14,7 +14,7 @@ class StudentController:
         self.view = StudentView(self)
 
     def add_student(self, nome, idade, peso, altura, estado_saude):
-        student = Student(nome, idade, peso, altura, estado_saude)
+        student = StudentModel(nome, idade, peso, altura, estado_saude)
         self.service.add_student(student)
 
     def process_data(self):
@@ -22,6 +22,7 @@ class StudentController:
 
     def run(self):
         self.view.mainloop()
+
 
 if __name__ == '__main__':
     controller = StudentController()
