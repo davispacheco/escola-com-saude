@@ -1,7 +1,7 @@
 # Este arquivo contém as regras de negócio.
 
 import pandas as pd
-from src.model import Student
+from src.model.student_model import StudentModel
 
 class StudentService:
     def __init__(self, excel_file='cadastro_alunos.xlsx'):

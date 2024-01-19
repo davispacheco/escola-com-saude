@@ -1,6 +1,6 @@
 # Este arquivo contém as estruturas de dados ou modelos.
 
-class Student:
+class StudentModel:
     def __init__(self, nome, idade, peso, altura, estado_saude):
         self.nome = nome
         self.idade = idade

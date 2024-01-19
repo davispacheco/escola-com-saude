@@ -1,8 +1,12 @@
 # Este arquivo faz a ponte entre a view, o model e o service.
 
-from src.view import StudentView
-from src.model import Student
-from src.service import StudentService
+from src.model.student_model import \
+    StudentModel
+from src.service.student_service import \
+    StudentService
+from src.view.student_view import \
+    StudentView
+
 
 class StudentController:
     def __init__(self):

@@ -11,8 +11,7 @@ class StudentView:
         self.create_widgets()
 
     def create_widgets(self):
-        # ... Crie os widgets da interface gráfica aqui ...
-        # Por exemplo, campos de entrada e botões
+
 
     def mainloop(self):
         self.root.mainloop()
